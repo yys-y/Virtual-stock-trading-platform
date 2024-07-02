@@ -16,3 +16,7 @@
 9. 社交功能，如论坛和交流区
 10. 模拟交易比赛和排行榜功能
 ## 原型设计
+![](https://github.com/WHUCScoke/Virtual-stock-trading-platform/blob/master/picture/QQ图片20240702220754.png)
+![](https://github.com/WHUCScoke/Virtual-stock-trading-platform/blob/master/picture/QQ图片20240702220804.png)
+![](https://github.com/WHUCScoke/Virtual-stock-trading-platform/blob/master/picture/QQ图片20240702220807.png)
+1[](https://github.com/WHUCScoke/Virtual-stock-trading-platform/blob/master/picture/QQ图片20240702220809.jpg)
