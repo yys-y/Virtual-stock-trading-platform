@@ -18,8 +18,6 @@
 
 4. 实时股票行情显示功能
 
-![example](file:///C:/Users/11940/Pictures/Screenshots/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-07-02%20095118.png "none")
-
 6. 用户投资组合管理功能。
 
 7. 用户风险评估和提示功能。
