@@ -1,0 +1,14 @@
+debug/home_page.o
+debug/main.o
+debug/mainwindow.o
+debug/mystock.o
+debug/signup.o
+debug/stock_community.o
+debug/stock_trade.o
+debug/qrc_images.o
+debug/moc_home_page.o
+debug/moc_mainwindow.o
+debug/moc_mystock.o
+debug/moc_signup.o
+debug/moc_stock_community.o
+debug/moc_stock_trade.o

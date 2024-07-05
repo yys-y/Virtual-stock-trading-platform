@@ -1,0 +1,14 @@
+release/home_page.o
+release/main.o
+release/mainwindow.o
+release/mystock.o
+release/signup.o
+release/stock_community.o
+release/stock_trade.o
+release/qrc_images.o
+release/moc_home_page.o
+release/moc_mainwindow.o
+release/moc_mystock.o
+release/moc_signup.o
+release/moc_stock_community.o
+release/moc_stock_trade.o
