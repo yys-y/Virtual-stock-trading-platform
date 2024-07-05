@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>images/DM_20240704113903_001.png</file>
-        <file>images/DM_20240704154133_001.jpg</file>
-        <file>images/145c34ad17d0371.jpg</file>
-        <file>images/v2-4bed12d53f95797b389478104565a5fe_r.jpg</file>
-        <file>images/e6b19e6b1f296bec.webp</file>
-    </qresource>
-</RCC>
