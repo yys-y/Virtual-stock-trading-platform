@@ -166,7 +166,7 @@ font: 500 16pt &quot;Noto Sans SC Medium&quot;;</string>
     <rect>
      <x>120</x>
      <y>100</y>
-     <width>131</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -193,26 +193,20 @@ font: 500 16pt &quot;Noto Sans SC Medium&quot;;</string>
   <widget class="QPushButton" name="search">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>180</x>
      <y>10</y>
-     <width>41</width>
+     <width>31</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">background-image: url(:/E:/picture/94f6e78e91fc7dd9eed3_s (1).webp);</string>
    </property>
    <property name="text">
     <string/>
    </property>
-   <property name="icon">
-    <iconset resource="images.qrc">
-     <normaloff>:/images/e6b19e6b1f296bec.webp</normaloff>:/images/e6b19e6b1f296bec.webp</iconset>
-   </property>
   </widget>
  </widget>
- <resources>
-  <include location="images.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

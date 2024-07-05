@@ -11,7 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>虚拟股票交易平台</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
   </property>
   <widget class="QStackedWidget" name="stackedWidget">
    <property name="geometry">
@@ -74,7 +77,20 @@
     </rect>
    </property>
    <property name="text">
-    <string>股市行情</string>
+    <string>股市交易</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="admin_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>管理员入口</string>
    </property>
   </widget>
  </widget>
