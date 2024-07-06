@@ -25,6 +25,14 @@ private slots:
 
     void on_modify_clicked();
 
+    void on_search_id2_clicked();
+
+    void on_addnew_2_clicked();
+
+    void on_delete_selected_row_2_clicked();
+
+    void on_modify_2_clicked();
+
 private:
     Ui::Administrator *ui;
        QSqlTableModel*model;
