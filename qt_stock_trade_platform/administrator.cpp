@@ -2,12 +2,15 @@
 #include "ui_administrator.h"
 Administrator::Administrator(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::Administrator),model(new QSqlTableModel)
+    , ui(new Ui::Administrator),model(new QSqlTableModel),model2(new QSqlTableModel)
 {
     ui->setupUi(this);
     model->setTable("user"); // 设置要查询的表格
     model->select(); // 执行查询
+    model2->setTable("stock"); // 设置要查询的表格
+    model2->select(); // 执行查询
     QStringList tables;
+
     tables << "id" << "用户名" << "密码";
     for(int i = 0 ; i < tables.count(); i++)
         model->setHeaderData(i,Qt::Horizontal,tables[i]);//设置显示框表头显示

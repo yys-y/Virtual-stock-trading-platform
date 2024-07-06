@@ -28,6 +28,7 @@ private slots:
 private:
     Ui::Administrator *ui;
        QSqlTableModel*model;
+       QSqlTableModel*model2;
 };
 
 #endif // ADMINISTRATOR_H

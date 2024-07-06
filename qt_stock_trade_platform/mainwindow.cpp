@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "signup.h"
+#include<qsqlquery.h>
+#include <QSqlError>
 
 #include <QGraphicsDropShadowEffect>
 MainWindow::MainWindow(QWidget *parent)
@@ -48,6 +50,29 @@ void sqlite_Init()
     else{
         qDebug()<<"table create success";
     }
+    // 创建 stock 表
+    QString createStockTable = QString("CREATE TABLE IF NOT EXISTS stock ("
+                                       "id INTEGER PRIMARY KEY AUTOINCREMENT, "//定义表中列的属性
+                                       "stock_code NTEXT UNIQUE NOT NULL, "//股票代码
+                                       "stock_name NTEXT NOT NULL, "//股票名称
+                                       "stock_price REAL NOT NULL, "//股票价格
+                                       "stock_change_rate REAL, "//涨跌幅
+                                       "stock_change_amount REAL, "//涨跌额
+                                       "stock_quantity INTEGER, "//股票数量
+                                       "stock_total_volume INTEGER)"//累计成交量
+                                       );
+    QSqlQuery query1;
+    if(!query1.exec(createsql)){
+        qDebug()<<"table create error";
+    }
+    else{
+        qDebug()<<"table create success";
+    }
+    if (!query1.exec(createStockTable)) {
+        qDebug() << "Stock table creation error:" << query1.lastError().text();
+    } else {
+        qDebug() << "Stock table created successfully";
+    }
 }
 
 
@@ -73,7 +98,7 @@ void MainWindow::on_signup_clicked()
         //登录成功后可以跳转到其他页面
         homepage->show();
         homepage->set_button_visable(false);
-        if(username=="Administrate"||"a")
+        if(username=="Administrate"||username=="a")
         {
             homepage->set_button_visable(true);
         }

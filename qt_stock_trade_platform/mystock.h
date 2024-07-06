@@ -18,7 +18,7 @@ public:
     ~Mystock();
 
 public slots:
-    void on_pushButton_clicked();
+    //void on_pushButton_clicked();
     void setUserName();
 
 private slots:
