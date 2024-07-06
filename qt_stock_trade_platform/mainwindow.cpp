@@ -21,6 +21,12 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label_image->setGraphicsEffect(shadow);
 }
 
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
 void sqlite_Init()
 {
 
@@ -33,7 +39,8 @@ void sqlite_Init()
     //create excle
     QString createsql=QString("create table if not exists user(id integer primary key autoincrement,"
                                 "username ntext unique not NULL,"
-                                "password ntext not NULL)");
+                                "password ntext not NULL,"
+                                "balance integer)");
     QSqlQuery query;
     if(!query.exec(createsql)){
         qDebug()<<"table create error";
@@ -41,11 +48,6 @@ void sqlite_Init()
     else{
         qDebug()<<"table create success";
     }
-}
-
-MainWindow::~MainWindow()
-{
-    delete ui;
 }
 
 
@@ -70,6 +72,12 @@ void MainWindow::on_signup_clicked()
         QMessageBox::information(this,"登录认证","登录成功");
         //登录成功后可以跳转到其他页面
         homepage->show();
+        homepage->set_button_visable(false);
+        if(username=="Administrate")
+        {
+            homepage->set_button_visable(true);
+        }
+          nowUserName=username;
         this->close();
     }
 }

@@ -2,7 +2,7 @@
 #define ADMINISTRATOR_H
 
 #include <QWidget>
-
+#include<QSqlTableModel>
 namespace Ui {
 class Administrator;
 }

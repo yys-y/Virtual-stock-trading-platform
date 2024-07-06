@@ -33,7 +33,7 @@ public:
         graphicsView->setGeometry(QRect(180, 60, 256, 192));
         label = new QLabel(Stock_Trade);
         label->setObjectName("label");
-        label->setGeometry(QRect(270, 150, 40, 12));
+        label->setGeometry(QRect(270, 150, 71, 21));
 
         retranslateUi(Stock_Trade);
 

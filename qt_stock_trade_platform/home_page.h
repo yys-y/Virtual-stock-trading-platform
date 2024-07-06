@@ -17,7 +17,10 @@ class Home_Page : public QWidget
 public:
     explicit Home_Page(QWidget *parent = nullptr);
     ~Home_Page();
+ void set_button_visable(bool vision);
 
+signals:
+    void callUserName();
 private slots:
     void on_pushButton_clicked();
 
@@ -29,12 +32,9 @@ private slots:
 
     void on_admin_button_clicked();
 
+
 private:
     Ui::Home_Page *ui;
-    Mystock* mystock;//我的股市
-    Stock_Trade *stock_trade;//股市行情
-    Stock_Community *stock_community;//股市交流
-    Administrator*administrator;//管理员入口
 };
 
 #endif // HOME_PAGE_H

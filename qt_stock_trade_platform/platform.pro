@@ -14,27 +14,36 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     mystock.cpp \
+    recharge.cpp \
+    revise.cpp \
     signup.cpp \
     stock_community.cpp \
-    stock_trade.cpp
+    stock_trade.cpp \
+    table.cpp
 
 HEADERS += \
     administrator.h \
     home_page.h \
     mainwindow.h \
     mystock.h \
+    recharge.h \
+    revise.h \
     signup.h \
     stock_community.h \
-    stock_trade.h
+    stock_trade.h \
+    table.h
 
 FORMS += \
     administrator.ui \
     home_page.ui \
     mainwindow.ui \
     mystock.ui \
+    recharge.ui \
+    revise.ui \
     signup.ui \
     stock_community.ui \
-    stock_trade.ui
+    stock_trade.ui \
+    table.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

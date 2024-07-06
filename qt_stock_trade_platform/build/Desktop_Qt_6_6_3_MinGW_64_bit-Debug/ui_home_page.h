@@ -27,12 +27,14 @@ public:
     QPushButton *mystock_button;
     QPushButton *community_button;
     QPushButton *trade_button;
+    QPushButton *admin_button;
 
     void setupUi(QWidget *Home_Page)
     {
         if (Home_Page->objectName().isEmpty())
             Home_Page->setObjectName("Home_Page");
         Home_Page->resize(900, 430);
+        Home_Page->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         stackedWidget = new QStackedWidget(Home_Page);
         stackedWidget->setObjectName("stackedWidget");
         stackedWidget->setGeometry(QRect(120, 0, 760, 430));
@@ -54,6 +56,9 @@ public:
         trade_button = new QPushButton(Home_Page);
         trade_button->setObjectName("trade_button");
         trade_button->setGeometry(QRect(0, 80, 121, 41));
+        admin_button = new QPushButton(Home_Page);
+        admin_button->setObjectName("admin_button");
+        admin_button->setGeometry(QRect(0, 160, 121, 41));
 
         retranslateUi(Home_Page);
 
@@ -62,11 +67,12 @@ public:
 
     void retranslateUi(QWidget *Home_Page)
     {
-        Home_Page->setWindowTitle(QCoreApplication::translate("Home_Page", "Form", nullptr));
+        Home_Page->setWindowTitle(QCoreApplication::translate("Home_Page", "\350\231\232\346\213\237\350\202\241\347\245\250\344\272\244\346\230\223\345\271\263\345\217\260", nullptr));
         pushButton->setText(QCoreApplication::translate("Home_Page", "\350\202\241\345\270\202\350\265\204\350\256\257", nullptr));
         mystock_button->setText(QCoreApplication::translate("Home_Page", "\346\210\221\347\232\204\350\202\241\345\270\202", nullptr));
         community_button->setText(QCoreApplication::translate("Home_Page", "\350\202\241\345\270\202\344\272\244\346\265\201", nullptr));
-        trade_button->setText(QCoreApplication::translate("Home_Page", "\350\202\241\345\270\202\350\241\214\346\203\205", nullptr));
+        trade_button->setText(QCoreApplication::translate("Home_Page", "\350\202\241\345\270\202\344\272\244\346\230\223", nullptr));
+        admin_button->setText(QCoreApplication::translate("Home_Page", "\347\256\241\347\220\206\345\221\230\345\205\245\345\217\243", nullptr));
     } // retranslateUi
 
 };
