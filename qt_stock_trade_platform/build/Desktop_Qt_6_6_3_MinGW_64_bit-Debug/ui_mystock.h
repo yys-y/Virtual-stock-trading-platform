@@ -108,11 +108,11 @@ public:
         search->setStyleSheet(QString::fromUtf8("background-image: url(:/E:/picture/94f6e78e91fc7dd9eed3_s (1).webp);"));
         label = new QLabel(Mystock);
         label->setObjectName("label");
-        label->setGeometry(QRect(10, 170, 81, 31));
+        label->setGeometry(QRect(10, 170, 91, 31));
         label->setStyleSheet(QString::fromUtf8("background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);"));
         label_2 = new QLabel(Mystock);
         label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(110, 170, 51, 21));
+        label_2->setGeometry(QRect(120, 170, 51, 31));
         label_2->setStyleSheet(QString::fromUtf8("background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);"));
 
         retranslateUi(Mystock);

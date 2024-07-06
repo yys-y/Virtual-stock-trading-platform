@@ -73,7 +73,7 @@ void MainWindow::on_signup_clicked()
         //登录成功后可以跳转到其他页面
         homepage->show();
         homepage->set_button_visable(false);
-        if(username=="Administrate")
+        if(username=="Administrate"||"a")
         {
             homepage->set_button_visable(true);
         }

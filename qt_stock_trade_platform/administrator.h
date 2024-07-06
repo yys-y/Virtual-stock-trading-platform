@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include<QSqlTableModel>
+#include<QMessageBox>
 namespace Ui {
 class Administrator;
 }
@@ -15,8 +16,18 @@ public:
     explicit Administrator(QWidget *parent = nullptr);
     ~Administrator();
 
+private slots:
+    void on_search_id_clicked();
+
+    void on_delete_selected_row_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_modify_clicked();
+
 private:
     Ui::Administrator *ui;
+       QSqlTableModel*model;
 };
 
 #endif // ADMINISTRATOR_H
