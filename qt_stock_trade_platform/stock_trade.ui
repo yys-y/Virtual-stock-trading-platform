@@ -6,34 +6,98 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>506</width>
-    <height>396</height>
+    <width>774</width>
+    <height>431</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QGraphicsView" name="graphicsView">
+  <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>60</y>
-     <width>256</width>
-     <height>192</height>
+     <x>0</x>
+     <y>80</y>
+     <width>771</width>
+     <height>351</height>
     </rect>
    </property>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>股票代码</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>股票名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>最新价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>涨跌幅</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>涨跌额</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>数量</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>成交数量</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flags">
+     <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+    </property>
+   </item>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>150</y>
-     <width>71</width>
-     <height>21</height>
+     <x>0</x>
+     <y>0</y>
+     <width>771</width>
+     <height>81</height>
     </rect>
    </property>
    <property name="text">
-    <string>股市行情</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;file:///C:\Users\xing2\AppData\Roaming\Tencent\Users\2170907380\QQ\WinTemp\RichOle\)LT$DS)62$~08Z8VAXO~GFI.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
