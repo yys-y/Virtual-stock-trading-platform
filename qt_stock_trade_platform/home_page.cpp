@@ -62,6 +62,11 @@ void Home_Page::on_community_button_clicked()
 void Home_Page::on_mystock_button_clicked()
 {
     Mystock*mystock=new Mystock;
+    QString sql=QString("select * from user where username='%1' ")
+                      .arg(nowUserName);
+    QSqlQuery query(sql);
+    query.next();
+    nowbalance=query.value(3).toString();
     mystock->setUserName();
     ui->stackedWidget->addWidget(mystock);
     ui->stackedWidget->setCurrentWidget(mystock);
