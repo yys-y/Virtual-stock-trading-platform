@@ -11,7 +11,7 @@ Administrator::Administrator(QWidget *parent)
     model2->select(); // 执行查询
 
     QStringList tables;
-    tables << "id" << "用户名" << "密码";
+    tables << "id" << "用户名" << "密码"<<"用户余额";
         for(int i = 0 ; i < tables.count(); i++)
         model->setHeaderData(i,Qt::Horizontal,tables[i]);//设置显示框表头显示
     model->setSort(0,Qt::AscendingOrder);//设置按照第0列升序排序，DescendingOrder降序

@@ -27,8 +27,8 @@ void Signup::on_pushButton_clicked()
     //判断密码是否一致
     if(password == surepass)
     {
-        QString sql=QString("insert into user(username,password) values('%1','%2');")
-                          .arg(username).arg(password);
+        QString sql=QString("insert into user(username,password,balance) values('%1','%2',%3);")
+                          .arg(username).arg(password).arg(0);
         //创建执行语句对象
         QSqlQuery query;
         //判断执行结果

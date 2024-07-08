@@ -27,46 +27,57 @@ public:
     QPushButton *modify;
     QPushButton *delete_selected_row;
     QLineEdit *lineEdit_2;
-    QPushButton *pushButton_4;
+    QPushButton *search_id2;
     QTableView *tableView;
-    QTableView *tableView_2;
+    QTableView *tableView2;
     QPushButton *pushButton;
+    QPushButton *modify_2;
+    QPushButton *delete_selected_row_2;
+    QPushButton *addnew_2;
 
     void setupUi(QWidget *Administrator)
     {
         if (Administrator->objectName().isEmpty())
             Administrator->setObjectName("Administrator");
-        Administrator->resize(690, 475);
-        Administrator->setMinimumSize(QSize(690, 475));
-        Administrator->setMaximumSize(QSize(690, 475));
+        Administrator->resize(922, 673);
+        Administrator->setMinimumSize(QSize(0, 0));
         Administrator->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         lineEdit = new QLineEdit(Administrator);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(0, 60, 171, 31));
+        lineEdit->setGeometry(QRect(0, 0, 171, 31));
         search_id = new QPushButton(Administrator);
         search_id->setObjectName("search_id");
-        search_id->setGeometry(QRect(170, 60, 41, 31));
+        search_id->setGeometry(QRect(170, 0, 41, 31));
         modify = new QPushButton(Administrator);
         modify->setObjectName("modify");
-        modify->setGeometry(QRect(210, 60, 41, 31));
+        modify->setGeometry(QRect(210, 0, 41, 31));
         delete_selected_row = new QPushButton(Administrator);
         delete_selected_row->setObjectName("delete_selected_row");
-        delete_selected_row->setGeometry(QRect(250, 60, 41, 31));
+        delete_selected_row->setGeometry(QRect(250, 0, 41, 31));
         lineEdit_2 = new QLineEdit(Administrator);
         lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(340, 60, 141, 31));
-        pushButton_4 = new QPushButton(Administrator);
-        pushButton_4->setObjectName("pushButton_4");
-        pushButton_4->setGeometry(QRect(480, 60, 41, 31));
+        lineEdit_2->setGeometry(QRect(420, 0, 141, 31));
+        search_id2 = new QPushButton(Administrator);
+        search_id2->setObjectName("search_id2");
+        search_id2->setGeometry(QRect(560, 0, 41, 31));
         tableView = new QTableView(Administrator);
         tableView->setObjectName("tableView");
-        tableView->setGeometry(QRect(0, 90, 331, 381));
-        tableView_2 = new QTableView(Administrator);
-        tableView_2->setObjectName("tableView_2");
-        tableView_2->setGeometry(QRect(335, 90, 351, 381));
+        tableView->setGeometry(QRect(0, 30, 421, 651));
+        tableView2 = new QTableView(Administrator);
+        tableView2->setObjectName("tableView2");
+        tableView2->setGeometry(QRect(420, 30, 511, 651));
         pushButton = new QPushButton(Administrator);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(290, 60, 41, 31));
+        pushButton->setGeometry(QRect(290, 0, 41, 31));
+        modify_2 = new QPushButton(Administrator);
+        modify_2->setObjectName("modify_2");
+        modify_2->setGeometry(QRect(600, 0, 41, 31));
+        delete_selected_row_2 = new QPushButton(Administrator);
+        delete_selected_row_2->setObjectName("delete_selected_row_2");
+        delete_selected_row_2->setGeometry(QRect(640, 0, 41, 31));
+        addnew_2 = new QPushButton(Administrator);
+        addnew_2->setObjectName("addnew_2");
+        addnew_2->setGeometry(QRect(680, 0, 41, 31));
 
         retranslateUi(Administrator);
 
@@ -84,8 +95,11 @@ public:
         lineEdit_2->setInputMask(QString());
         lineEdit_2->setText(QString());
         lineEdit_2->setPlaceholderText(QCoreApplication::translate("Administrator", "\350\276\223\345\205\245\350\202\241\347\245\250\345\220\215\346\210\226\344\273\243\347\240\201\344\273\245\346\237\245\350\257\242", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("Administrator", "\346\237\245\350\257\242", nullptr));
+        search_id2->setText(QCoreApplication::translate("Administrator", "\346\237\245\350\257\242", nullptr));
         pushButton->setText(QCoreApplication::translate("Administrator", "\346\226\260\345\242\236", nullptr));
+        modify_2->setText(QCoreApplication::translate("Administrator", "\347\241\256\345\256\232", nullptr));
+        delete_selected_row_2->setText(QCoreApplication::translate("Administrator", "\345\210\240\351\231\244", nullptr));
+        addnew_2->setText(QCoreApplication::translate("Administrator", "\346\226\260\345\242\236", nullptr));
     } // retranslateUi
 
 };

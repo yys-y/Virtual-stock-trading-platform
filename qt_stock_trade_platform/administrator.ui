@@ -6,20 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>625</height>
+    <width>922</width>
+    <height>673</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>0</width>
     <height>0</height>
-   </size>
-  </property>
-  <property name="maximumSize">
-   <size>
-    <width>800</width>
-    <height>625</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -86,7 +80,7 @@
   <widget class="QLineEdit" name="lineEdit_2">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>420</x>
      <y>0</y>
      <width>141</width>
      <height>31</height>
@@ -105,7 +99,7 @@
   <widget class="QPushButton" name="search_id2">
    <property name="geometry">
     <rect>
-     <x>480</x>
+     <x>560</x>
      <y>0</y>
      <width>41</width>
      <height>31</height>
@@ -120,18 +114,18 @@
     <rect>
      <x>0</x>
      <y>30</y>
-     <width>331</width>
-     <height>591</height>
+     <width>421</width>
+     <height>651</height>
     </rect>
    </property>
   </widget>
   <widget class="QTableView" name="tableView2">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>420</x>
      <y>30</y>
-     <width>471</width>
-     <height>591</height>
+     <width>511</width>
+     <height>651</height>
     </rect>
    </property>
   </widget>
@@ -151,7 +145,7 @@
   <widget class="QPushButton" name="modify_2">
    <property name="geometry">
     <rect>
-     <x>520</x>
+     <x>600</x>
      <y>0</y>
      <width>41</width>
      <height>31</height>
@@ -164,7 +158,7 @@
   <widget class="QPushButton" name="delete_selected_row_2">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>640</x>
      <y>0</y>
      <width>41</width>
      <height>31</height>
@@ -177,7 +171,7 @@
   <widget class="QPushButton" name="addnew_2">
    <property name="geometry">
     <rect>
-     <x>600</x>
+     <x>680</x>
      <y>0</y>
      <width>41</width>
      <height>31</height>
