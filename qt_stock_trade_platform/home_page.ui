@@ -25,7 +25,21 @@
      <height>430</height>
     </rect>
    </property>
-   <widget class="QWidget" name="page"/>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>30</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
    <widget class="QWidget" name="page_2"/>
   </widget>
   <widget class="QPushButton" name="pushButton">
@@ -36,6 +50,34 @@
      <width>121</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #87CEFA;  /* 按钮背景颜色，淡蓝色 */
+    border: 2px solid #1E90FF;  /* 边框颜色，深蓝色 */
+    color: white;               /* 字体颜色 */
+    padding: 10px 20px;         /* 内边距 */
+    text-align: center;         /* 文本居中 */
+    font-size: 16px;            /* 字体大小 */
+    border-radius: 10px;        /* 边角圆润 */
+    font-family: Arial, sans-serif;  /* 字体 */
+}
+
+QPushButton:hover {
+    background-color: #00BFFF;  /* 鼠标悬停时的背景颜色 */
+    border: 2px solid #1E90FF;  /* 悬停时的边框颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #1E90FF;  /* 按下时的背景颜色 */
+    border: 2px solid #87CEFA;  /* 按下时的边框颜色 */
+}
+
+QPushButton:disabled {
+    background-color: #B0C4DE;  /* 禁用时的背景颜色 */
+    color: #A9A9A9;             /* 禁用时的字体颜色 */
+}
+</string>
    </property>
    <property name="text">
     <string>股市资讯</string>
@@ -50,6 +92,34 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #87CEFA;  /* 按钮背景颜色，淡蓝色 */
+    border: 2px solid #1E90FF;  /* 边框颜色，深蓝色 */
+    color: white;               /* 字体颜色 */
+    padding: 10px 20px;         /* 内边距 */
+    text-align: center;         /* 文本居中 */
+    font-size: 16px;            /* 字体大小 */
+    border-radius: 10px;        /* 边角圆润 */
+    font-family: Arial, sans-serif;  /* 字体 */
+}
+
+QPushButton:hover {
+    background-color: #00BFFF;  /* 鼠标悬停时的背景颜色 */
+    border: 2px solid #1E90FF;  /* 悬停时的边框颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #1E90FF;  /* 按下时的背景颜色 */
+    border: 2px solid #87CEFA;  /* 按下时的边框颜色 */
+}
+
+QPushButton:disabled {
+    background-color: #B0C4DE;  /* 禁用时的背景颜色 */
+    color: #A9A9A9;             /* 禁用时的字体颜色 */
+}
+</string>
+   </property>
    <property name="text">
     <string>我的股市</string>
    </property>
@@ -62,6 +132,34 @@
      <width>121</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #87CEFA;  /* 按钮背景颜色，淡蓝色 */
+    border: 2px solid #1E90FF;  /* 边框颜色，深蓝色 */
+    color: white;               /* 字体颜色 */
+    padding: 10px 20px;         /* 内边距 */
+    text-align: center;         /* 文本居中 */
+    font-size: 16px;            /* 字体大小 */
+    border-radius: 10px;        /* 边角圆润 */
+    font-family: Arial, sans-serif;  /* 字体 */
+}
+
+QPushButton:hover {
+    background-color: #00BFFF;  /* 鼠标悬停时的背景颜色 */
+    border: 2px solid #1E90FF;  /* 悬停时的边框颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #1E90FF;  /* 按下时的背景颜色 */
+    border: 2px solid #87CEFA;  /* 按下时的边框颜色 */
+}
+
+QPushButton:disabled {
+    background-color: #B0C4DE;  /* 禁用时的背景颜色 */
+    color: #A9A9A9;             /* 禁用时的字体颜色 */
+}
+</string>
    </property>
    <property name="text">
     <string>股市交流</string>
@@ -76,6 +174,34 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #87CEFA;  /* 按钮背景颜色，淡蓝色 */
+    border: 2px solid #1E90FF;  /* 边框颜色，深蓝色 */
+    color: white;               /* 字体颜色 */
+    padding: 10px 20px;         /* 内边距 */
+    text-align: center;         /* 文本居中 */
+    font-size: 16px;            /* 字体大小 */
+    border-radius: 10px;        /* 边角圆润 */
+    font-family: Arial, sans-serif;  /* 字体 */
+}
+
+QPushButton:hover {
+    background-color: #00BFFF;  /* 鼠标悬停时的背景颜色 */
+    border: 2px solid #1E90FF;  /* 悬停时的边框颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #1E90FF;  /* 按下时的背景颜色 */
+    border: 2px solid #87CEFA;  /* 按下时的边框颜色 */
+}
+
+QPushButton:disabled {
+    background-color: #B0C4DE;  /* 禁用时的背景颜色 */
+    color: #A9A9A9;             /* 禁用时的字体颜色 */
+}
+</string>
+   </property>
    <property name="text">
     <string>股市交易</string>
    </property>
@@ -88,6 +214,34 @@
      <width>121</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #87CEFA;  /* 按钮背景颜色，淡蓝色 */
+    border: 2px solid #1E90FF;  /* 边框颜色，深蓝色 */
+    color: white;               /* 字体颜色 */
+    padding: 10px 20px;         /* 内边距 */
+    text-align: center;         /* 文本居中 */
+    font-size: 16px;            /* 字体大小 */
+    border-radius: 10px;        /* 边角圆润 */
+    font-family: Arial, sans-serif;  /* 字体 */
+}
+
+QPushButton:hover {
+    background-color: #00BFFF;  /* 鼠标悬停时的背景颜色 */
+    border: 2px solid #1E90FF;  /* 悬停时的边框颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #1E90FF;  /* 按下时的背景颜色 */
+    border: 2px solid #87CEFA;  /* 按下时的边框颜色 */
+}
+
+QPushButton:disabled {
+    background-color: #B0C4DE;  /* 禁用时的背景颜色 */
+    color: #A9A9A9;             /* 禁用时的字体颜色 */
+}
+</string>
    </property>
    <property name="text">
     <string>管理员入口</string>

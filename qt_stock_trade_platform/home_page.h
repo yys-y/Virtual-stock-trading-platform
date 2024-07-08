@@ -33,6 +33,8 @@ private slots:
     void on_admin_button_clicked();
 
 
+    //void on_label_linkActivated(const QString &link);
+
 private:
     Ui::Home_Page *ui;
 };
