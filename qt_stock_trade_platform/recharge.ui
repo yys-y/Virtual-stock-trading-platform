@@ -6,18 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>758</width>
-    <height>421</height>
+    <width>501</width>
+    <height>371</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+  </property>
   <widget class="QPushButton" name="sureButtom">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>230</y>
+     <x>170</x>
+     <y>210</y>
      <width>80</width>
      <height>18</height>
     </rect>
@@ -29,14 +33,20 @@
   <widget class="QLineEdit" name="rechargeEdit">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>150</y>
+     <x>80</x>
+     <y>160</y>
      <width>289</width>
      <height>22</height>
     </rect>
    </property>
+   <property name="inputMask">
+    <string/>
+   </property>
    <property name="echoMode">
-    <enum>QLineEdit::Password</enum>
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
+    <string>请输入你想要充值的金额</string>
    </property>
   </widget>
  </widget>
