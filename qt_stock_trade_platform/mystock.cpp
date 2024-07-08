@@ -4,6 +4,7 @@
 #include"table.h"
 #include"revise.h"
 #include"mainwindow.h"
+#include<QFont>
 Mystock::Mystock(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Mystock)
@@ -23,6 +24,11 @@ void Mystock::on_recharge_clicked()
     ui->stackedWidget->setCurrentWidget(recharge_page);
 }
 void Mystock::setUserName(){
+    QFont font;//font-size:16pt; font-weight:700
+    font.setPixelSize(16);
+    font.setBold(true);
+    ui->namelabel->setFont(font);
+    ui->balancelabel->setFont(font);
     ui->namelabel->setText(nowUserName);
     ui->balancelabel->setText(nowbalance);
 }

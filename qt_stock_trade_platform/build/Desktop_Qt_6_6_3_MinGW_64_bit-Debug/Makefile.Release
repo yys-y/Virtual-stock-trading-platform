@@ -159,9 +159,12 @@ compiler_rcc_clean:
 release/qrc_images.cpp: ../../images.qrc \
 		C:/Qt/6.6.3/mingw_64/bin/rcc.exe \
 		../../images/v2-4bed12d53f95797b389478104565a5fe_r.jpg \
+		../../images/751f1f5598b7ece518b1b70d4df246ded3a40b6b2502-ZhT5jz_fw658.jpg \
 		../../images/DM_20240704113903_001.png \
 		../../images/145c34ad17d0371.jpg \
-		../../images/DM_20240704154133_001.jpg
+		../../images/ecf71a4473ce3ce00b5325d5d1d7ebf7.png \
+		../../images/DM_20240704154133_001.jpg \
+		../../images/1681122204083841.jpg
 	C:\Qt\6.6.3\mingw_64\bin\rcc.exe -name images --no-zstd ..\..\images.qrc -o release\qrc_images.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h
@@ -515,6 +518,12 @@ release/moc_home_page.cpp: ../../home_page.h \
 		C:/Qt/6.6.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqldatabase.h \
 		../../mystock.h \
 		../../recharge.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QDialog \
@@ -556,10 +565,6 @@ release/moc_home_page.cpp: ../../home_page.h \
 		../../administrator.h \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/QSqlTableModel \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqltablemodel.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlglobal.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsql-config.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlexports.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqlquerymodel.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qmessagebox.h \
@@ -2450,6 +2455,12 @@ release/home_page.o: ../../home_page.cpp ../../home_page.h \
 		C:/Qt/6.6.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.6.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.6.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/QSqlQuery \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlexports.h \
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqldatabase.h \
 		../../mystock.h \
 		../../recharge.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QDialog \
@@ -2491,10 +2502,6 @@ release/home_page.o: ../../home_page.cpp ../../home_page.h \
 		../../administrator.h \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/QSqlTableModel \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqltablemodel.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlglobal.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsql-config.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qtsqlexports.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqldatabase.h \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqlquerymodel.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qmessagebox.h \
@@ -3288,7 +3295,8 @@ release/mystock.o: ../../mystock.cpp ../../mystock.h \
 		../../administrator.h \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/QSqlTableModel \
 		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqltablemodel.h \
-		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqlquerymodel.h
+		C:/Qt/6.6.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.6.3/mingw_64/include/QtGui/QFont
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mystock.o ..\..\mystock.cpp
 
 release/recharge.o: ../../recharge.cpp ../../recharge.h \
