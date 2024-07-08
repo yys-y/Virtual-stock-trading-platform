@@ -62,8 +62,7 @@ void Home_Page::on_community_button_clicked()
 void Home_Page::on_mystock_button_clicked()
 {
     Mystock*mystock=new Mystock;
-    emit callUserName();
-    connect(this,&Home_Page::callUserName,mystock,&Mystock::setUserName);
+    mystock->setUserName();
     ui->stackedWidget->addWidget(mystock);
     ui->stackedWidget->setCurrentWidget(mystock);
     ui->trade_button->setStyleSheet("QPushButton{background-color:white");

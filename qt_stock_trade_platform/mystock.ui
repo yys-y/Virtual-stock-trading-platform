@@ -42,9 +42,9 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>50</y>
+     <y>220</y>
      <width>261</width>
-     <height>381</height>
+     <height>211</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -171,10 +171,10 @@ font: 500 16pt &quot;Noto Sans SC Medium&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;你的名字&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
@@ -219,13 +219,13 @@ font: 500 16pt &quot;Noto Sans SC Medium&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;账户余额：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="balancelabel">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -235,10 +235,10 @@ font: 500 16pt &quot;Noto Sans SC Medium&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);</string>
+    <string notr="true"/>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;余额&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>

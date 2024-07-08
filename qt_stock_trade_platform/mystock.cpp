@@ -24,6 +24,7 @@ void Mystock::on_recharge_clicked()
 }
 void Mystock::setUserName(){
     ui->namelabel->setText(nowUserName);
+    ui->balancelabel->setText(nowbalance);
 }
 
 

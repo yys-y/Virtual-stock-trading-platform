@@ -103,6 +103,7 @@ void MainWindow::on_signup_clicked()
             homepage->set_button_visable(true);
         }
           nowUserName=username;
+        nowbalance=query.value(3).toString();
         this->close();
     }
 }

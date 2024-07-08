@@ -38,7 +38,7 @@ public:
     QLineEdit *lineEdit;
     QPushButton *search;
     QLabel *label;
-    QLabel *label_2;
+    QLabel *balancelabel;
 
     void setupUi(QWidget *Mystock)
     {
@@ -60,7 +60,7 @@ public:
         graphicsView->setStyleSheet(QString::fromUtf8("background-image: url(:/images/145c34ad17d0371.jpg);"));
         graphicsView_2 = new QGraphicsView(Mystock);
         graphicsView_2->setObjectName("graphicsView_2");
-        graphicsView_2->setGeometry(QRect(0, 50, 261, 381));
+        graphicsView_2->setGeometry(QRect(0, 220, 261, 211));
         graphicsView_2->setStyleSheet(QString::fromUtf8("border-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);"));
         stock_held = new QPushButton(Mystock);
         stock_held->setObjectName("stock_held");
@@ -98,7 +98,7 @@ public:
         namelabel = new QLabel(Mystock);
         namelabel->setObjectName("namelabel");
         namelabel->setGeometry(QRect(100, 90, 111, 31));
-        namelabel->setStyleSheet(QString::fromUtf8("background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);"));
+        namelabel->setStyleSheet(QString::fromUtf8(""));
         lineEdit = new QLineEdit(Mystock);
         lineEdit->setObjectName("lineEdit");
         lineEdit->setGeometry(QRect(30, 10, 181, 31));
@@ -109,11 +109,11 @@ public:
         label = new QLabel(Mystock);
         label->setObjectName("label");
         label->setGeometry(QRect(10, 170, 91, 31));
-        label->setStyleSheet(QString::fromUtf8("background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);"));
-        label_2 = new QLabel(Mystock);
-        label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(120, 170, 51, 31));
-        label_2->setStyleSheet(QString::fromUtf8("background-image: url(:/images/v2-4bed12d53f95797b389478104565a5fe_r.jpg);"));
+        label->setStyleSheet(QString::fromUtf8(""));
+        balancelabel = new QLabel(Mystock);
+        balancelabel->setObjectName("balancelabel");
+        balancelabel->setGeometry(QRect(120, 170, 51, 31));
+        balancelabel->setStyleSheet(QString::fromUtf8(""));
 
         retranslateUi(Mystock);
 
@@ -128,12 +128,12 @@ public:
         recharge->setText(QCoreApplication::translate("Mystock", "\350\264\247\345\270\201\345\205\205\345\200\274", nullptr));
         set_message->setText(QCoreApplication::translate("Mystock", "\344\277\241\346\201\257\344\277\256\346\224\271", nullptr));
         history_trade->setText(QCoreApplication::translate("Mystock", "\344\272\244\346\230\223\346\230\216\347\273\206", nullptr));
-        namelabel->setText(QCoreApplication::translate("Mystock", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:700;\">\344\275\240\347\232\204\345\220\215\345\255\227</span></p></body></html>", nullptr));
+        namelabel->setText(QCoreApplication::translate("Mystock", "<html><head/><body><p><br/></p></body></html>", nullptr));
         lineEdit->setInputMask(QString());
         lineEdit->setPlaceholderText(QCoreApplication::translate("Mystock", "\350\257\267\350\276\223\345\205\245\344\273\245\346\220\234\347\264\242", nullptr));
         search->setText(QString());
         label->setText(QCoreApplication::translate("Mystock", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:700;\">\350\264\246\346\210\267\344\275\231\351\242\235\357\274\232</span></p></body></html>", nullptr));
-        label_2->setText(QCoreApplication::translate("Mystock", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:700;\">\344\275\231\351\242\235</span></p></body></html>", nullptr));
+        balancelabel->setText(QCoreApplication::translate("Mystock", "<html><head/><body><p><br/></p></body></html>", nullptr));
     } // retranslateUi
 
 };

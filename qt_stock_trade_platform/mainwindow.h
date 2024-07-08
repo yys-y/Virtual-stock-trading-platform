@@ -10,6 +10,7 @@
 #include<QSqlTableModel>
 void sqlite_Init();
 extern QString nowUserName;
+extern QString nowbalance;
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
