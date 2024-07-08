@@ -2,10 +2,13 @@
 #define HOME_PAGE_H
 
 #include <QWidget>
+#include<QSqlQuery>
 #include<mystock.h>
 #include<stock_community.h>
 #include<stock_trade.h>
 #include<administrator.h>
+extern QString nowUserName;
+extern QString nowbalance;
 namespace Ui {
 class Home_Page;//股市资讯，首页
 }

@@ -25,6 +25,7 @@ Administrator::Administrator(QWidget *parent)
     tables2<<"id"<<"股票代码"<<"股票名称"<<"股票价格"<<"股票涨跌幅"<<"股票涨跌额"<<"股票数量"<<"累计成交量";
     for(int i = 0 ; i < tables2.count(); i++)
         model2->setHeaderData(i,Qt::Horizontal,tables2[i]);
+      model2->setSort(0,Qt::AscendingOrder);//设置按照第0列升序排序，DescendingOrder降序
     ui->tableView2->horizontalHeader()->setStretchLastSection(true);//设置最后一列填充后面表格
     ui->tableView2->setColumnHidden(0,true);//设置第0行隐藏
     ui->tableView2->setColumnWidth(1,50);//设置列宽，界面看起来更舒适
